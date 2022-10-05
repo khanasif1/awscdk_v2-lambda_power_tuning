@@ -8,14 +8,14 @@ The state machine is designed to be quick and language agnostic. You can provide
 
 The input function will be executed in your AWS account - performing real HTTP calls, SDK calls, cold starts, etc. The state machine also supports cross-region invocations and you can enable parallel execution to generate results in just a few seconds. Optionally, you can configure the state machine to automatically optimize the function and the end of its execution.
 
-![results graph](img/results.png)
+![results graph](the-lambda-power-tuner/img/results.png)
 
 The reason for doing this is that it helps with two of the Serverless Well Architected pillars:
 
 - Performance Efficiency Pillar
 - Cost Optimization Pillar
 
-![AWS Well Architected](img/well_architected.png)
+![AWS Well Architected](the-lambda-power-tuner/img/well_architected.png)
 
 The [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/) Framework helps you understand the pros and cons of
 decisions you make while building systems on AWS. By using the Framework, you will learn architectural best practices for designing and operating reliable, secure, efficient, and cost-effective systems in the cloud. It provides a way for you to consistently measure your architectures against best practices and identify areas for improvement.
@@ -128,11 +128,11 @@ Click "Start Execution" in the bottom right.
 
 When the tuner has finished your visual workflow should look like:
 
-![state machine success](img/state-machine-success.png)
+![state machine success](the-lambda-power-tuner/img/state-machine-success.png)
 
 Then you can scroll down to the very last event and expand it to get the URL for your results graph:
 
-![output](img/output.png)
+![output](the-lambda-power-tuner/img/output.png)
 
 ## Python CDK Setup
 
