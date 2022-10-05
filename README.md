@@ -1,5 +1,5 @@
 # The Lambda Power Tuner
-
+## This is same solution as published by Alex Casalboni, I have just updated the python code to support CDK V2
 This is an AWS CDK project that deploys the awesome [AWS Lambda Power Tuning](https://github.com/alexcasalboni/aws-lambda-power-tuning) project. 
 
 AWS Lambda Power Tuning is an AWS Step Functions state machine that helps you optimize your Lambda functions in a data-driven way.
